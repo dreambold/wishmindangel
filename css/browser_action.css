@@ -1,0 +1,39 @@
+.container-fluid{
+  background-color: #eff2f7;
+  color: #867AF5;
+}
+.center{
+  text-align: center;
+}
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+h1 {
+   font-weight: bold;
+   font-size: 30px;
+}
+.container{
+  width: 460px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.row{
+  border: 1px solid #e5e7eb;
+}
+.box {
+  
+  align-items:center;
+}
+td{
+  vertical-align: middle !important;;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.table {
+  margin-bottom: 0px !important;
+}

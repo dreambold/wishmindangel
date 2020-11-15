@@ -1,0 +1,19 @@
+{
+	"name": "wishmindangel",
+	"version": "1.0",
+	"manifest_version": 2,
+	"icons": { "128": "icon/icon.png" },
+	"browser_action": {
+		"default_icon": "icon/icon.png"
+	},
+	"permissions": ["<all_urls>", "tabs"],
+	"content_scripts": [{
+		"js": ["js/jquery.js","js/waitForKeyElements.js", "js/script.js"],
+		"matches": ["<all_urls>"],
+		"run_at": "document_idle",
+		"all_frames": true
+	}],
+	"background": {
+		"scripts": ["js/jquery.js", "js/bg.js"]
+	}
+}
